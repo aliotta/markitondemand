@@ -1,0 +1,46 @@
+{
+  "name": "markitondemand",
+  "version": "1.0.0",
+  "description": "Node library for dev.markitondemand.com REST APIs.",
+  "main": "./lib/markitondemand.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test -R spec",
+    "istanbul": "istanbul cover --report html node_modules/.bin/_mocha && open coverage/index.html",
+    "istanbulx": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "coveralls": "./node_modules/.bin/coveralls"
+  },
+  "author": "Ahmed Farooki",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.6",
+    "request-promise": "^4.1.1"
+  },
+  "maintainers": [
+    {
+      "name": "Ahmed Farooki",
+      "email": "ahmedfarooki@gmail.com",
+      "web": "http://ahmedfarooki.com"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/ahmedfarooki/markitondemand/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ahmedfarooki/markitondemand"
+  },
+  "keywords": [
+    "stocks",
+    "stock market",
+    "quotes",
+    "api",
+    "markitondemand"
+  ]
+}
