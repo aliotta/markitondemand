@@ -1,6 +1,6 @@
 {
   "name": "markitondemand",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node library for dev.markitondemand.com REST APIs.",
   "main": "./lib/markitondemand.js",
   "scripts": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coveralls": "^2.11.15",
+    "istanbul": "^0.4.5",
     "mocha": "^3.1.2",
     "mocha-lcov-reporter": "^1.2.0",
     "rewire": "^2.5.2",
