@@ -1,4 +1,8 @@
+markitondemand
+===================
+[![npm version](https://badge.fury.io/js/markitondemand.svg)](http://badge.fury.io/js/markitondemand)
 [![Build Status](https://travis-ci.org/ahmedfarooki/markitondemand.svg?branch=master)](https://travis-ci.org/ahmedfarooki/markitondemand)
+[![Coverage Status](https://coveralls.io/repos/ahmedfarooki/markitondemand/badge.svg)](https://coveralls.io/r/ahmedfarooki/markitondemand)
 
 [logo]: https://github.com/ahmedfarooki/markitondemand/blob/master/docs/img/mod-sm.png "markitondemand"
 ![GitHub Logo](https://github.com/ahmedfarooki/markitondemand/blob/master/docs/img/mod-sm.png)
