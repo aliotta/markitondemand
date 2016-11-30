@@ -6,7 +6,7 @@ markitondemand
 
 ![markitondemand.js Logo](https://raw.githubusercontent.com/ahmedfarooki/markitondemand/master/docs/img/mod-sm.png)
 
-Node.js library for accessing the **[Markit On Demand](http://dev.markitondemand.com)** APIs . Markit On Demand 'offers an opportunity to explore the complexity of financial data in building great tools'. The library gives you the ability to lookup stock symbols and and get stock quotes. This version is prosmified using the excellent bluebird library.
+Node.js library for accessing the **[Markit On Demand](http://dev.markitondemand.com)** APIs . Markit On Demand 'offers an opportunity to explore the complexity of financial data in building great tools'. The library gives you the ability to lookup stock symbols and get stock quotes. This version is prosmified using the excellent bluebird library.
 
 ### Getting Started
 
